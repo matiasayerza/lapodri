@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh Hell - Juego de Cartas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Oh Hell</h1>
+        <div id="players-info"></div>
+        <div id="game-area">
+            <h2>Cartas en juego</h2>
+            <div id="cards-played"></div>
+        </div>
+        <div id="controls">
+            <h2>Selecciona cuántas manos crees ganar</h2>
+            <input type="number" id="prediction" min="0" max="7">
+            <button id="submit-prediction">Enviar Predicción</button>
+        </div>
+        <div id="scoreboard">
+            <h2>Puntuaciones</h2>
+            <div id="scores"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
